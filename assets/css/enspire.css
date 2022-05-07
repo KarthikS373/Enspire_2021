@@ -112,7 +112,7 @@ body {
 
 .heading {
   display: block;
-  position: fixed;
+  position: absolute;
   width: 100%;
   top: 0;
   z-index: 1;
@@ -1306,7 +1306,7 @@ a.float:active + div.label-container .iframediscord {
 
 #timeline::-webkit-scrollbar {
   width: 0.1em;
-  height: 0.1em;
+  height: 0.3em;
 }
 
 #timeline::-webkit-scrollbar-thumb {
